@@ -1,0 +1,5 @@
+React stores states corresponding to hooks defined in component.
+React uses sequence of call to these hooks to determine which store state associates with which book call.
+If used with conditionals or loops, the sequence of hook calls may associate wrong stored state with strong call across re-renders.
+This can cause bugs or unexpected behaviour.
+
