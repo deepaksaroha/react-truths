@@ -120,7 +120,8 @@
     root.render(<App />);
 
     /*
-        first the App is rendered then A component is executed, 
+        first the App is rendered then A component is executed 
+        along with component B, 
         before it's return is reached, seuspense finds a loading, so it
         pauses further execution and renders fallback ui, once loading()
         is done, it rerenders all the components inside suspense.
