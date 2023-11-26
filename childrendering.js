@@ -23,6 +23,8 @@
                      B
 */}
 
+/*----------------------------------*/
+
 {
     const B = () => {
         console.log("B");
@@ -48,6 +50,8 @@
     // B is not rendered here as during reconciliation the children prop
     is same object in both current and new virtual dom.
 */}
+
+/*----------------------------------*/
 
 {
     const B = <h1>{console.log("B")}</h1>
